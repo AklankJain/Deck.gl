@@ -1,0 +1,27 @@
+{ "type": "FeatureCollection",
+    "features": [
+      { "type": "Feature",
+        "geometry": {"type": "Point", "coordinates": [2.0, 50.5]},
+        "properties": {"Status": "Completed", "Task_type":"install_", "project":"irby2", }
+      },
+      { "type": "Feature",
+        "geometry": {"type": "Point", "coordinates": [1.0, 51.5]},
+        "properties": {"prop0": "value1", "prop1":"test1"}
+      }, 
+{
+"type":"Feature" , 
+"geometry": {"type": "LineString", "coordinates": [[-2.151860025,50.869182477],[-3.151946713,50.869218055]]} ,
+ "properties": {"name": "This is a line string"}
+},
+{
+"type": "Feature",
+"geometry": {
+         "type": "Point",
+         "coordinates": [-3, 48.7519]
+   },
+   "properties": {
+          "name": "Second point added"
+   }
+}
+   ]
+}
